@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     return (
         <>
             <nav>
-                <a href="#">Home</a> | 
-                <a href="#">About</a> | 
-                <a href="#">Contact</a> | 
+                <Link to="/gh-live-react/home">Home</Link> | 
+                <Link to="/gh-live-react/about">About</Link> | 
+                <Link to="/gh-live-react/contact">Contact</Link> | 
             </nav>
         </>
     )
