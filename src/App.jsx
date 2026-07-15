@@ -12,6 +12,7 @@ function App() {
     <>
     <BrowserRouter>
     <Navbar />
+    {/* stored as separate file */}
       {/* <nav>
         <Link to="/gh-live-react/">Welcome</Link> | 
         <Link to="/gh-live-react/home">Home</Link> | 
@@ -19,7 +20,7 @@ function App() {
         <Link to="/gh-live-react/contact">Contact</Link> | 
       </nav> */}
       <Routes>
-
+     
       <Route path="/gh-live-react/"  element={<Welcome />} />
       <Route path="/gh-live-react/home"  element={<Home />} />
       <Route path="/gh-live-react/about" element={<About />} />
